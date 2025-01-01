@@ -732,6 +732,27 @@ a:focus {
 }
 
 /* end contact section */
+
+.product_box {
+  transition: transform 0.3s ease;
+}
+
+.product_box:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .product_box {
+      height: 250px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .product_box {
+      height: 200px !important;
+  }
+}
+/* end product section**/
 .team_section .box {
   display: -webkit-box;
   display: -ms-flexbox;
